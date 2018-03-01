@@ -31,9 +31,9 @@ class PlayCommand extends Command
       '=================================',
     ]);
 
-    $redPlayer = new Human('Human','R');
+    $redPlayer = new Human('Human','H');
 //    $redPlayer = new Computer('Red', 'R');
-    $yellowPlayer = new Computer('Robot', 'Y');
+    $yellowPlayer = new Computer('Robot', 'R    ');
 
     $output->writeln([
       "$redPlayer->name ($redPlayer->disk) vs $yellowPlayer->name ($yellowPlayer->disk)"

@@ -9,3 +9,24 @@ How to play
 You can set arbitrary board size, players number and the connection length (diameter) by modifying 
 `App\Board\Board.php` consonants.
 
+By default game is started by computer which selects a column randomly.
+
+Sample output
+=============
+
+```
+Welcome to the Connect Four game
+=================================
+Human (R) vs Robot (Y)
++---+---+---+---+---+---+---+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
++---+---+---+---+---+---+---+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   | Y |
++---+---+---+---+---+---+---+
+Please enter a column number (1,2,3,4,5,6,7):       
+```
