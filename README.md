@@ -17,7 +17,7 @@ Sample output
 ```
 Welcome to the Connect Four game
 =================================
-Human (R) vs Robot (Y)
+Human (H) vs Robot (R)
 +---+---+---+---+---+---+---+
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 +---+---+---+---+---+---+---+
@@ -26,7 +26,7 @@ Human (R) vs Robot (Y)
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
-|   |   |   |   |   |   | Y |
+|   |   |   |   |   |   | R |
 +---+---+---+---+---+---+---+
 Please enter a column number (1,2,3,4,5,6,7):       
 ```
